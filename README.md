@@ -1,2 +1,14 @@
-# sample-web-application-git-ansible-sonar
-We are going to discuss about setting up git to jenkins and sonar
+
+
+# Build Instruction
+
+
+```
+mvn clean package
+and build the instruction .
+```
+
+# Deploy instruction
+
+Deploy ```target/WebApp.war``` on Tomcat properly for better experience.
+
